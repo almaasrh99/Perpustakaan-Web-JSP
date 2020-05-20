@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+  
+<h1>Tambah Buku Baru</h1>  <br>
+<form action="tambahaksi.jsp" method="post">  
+<table>  
+    <table class="table table-bordered" >
+	<thead>
+	<tr>
+<td width="20%">ID Buku</td>
+<td width="5%" align="center">:</td>
+<td width="55%"><input type="text" class="form-control" name="id_buku" value=""/></td>
+</tr>
+<tr>
+<td width="20%">Judul Buku</td>
+<td width="5%" align="center">:</td>
+<td width="55%"><input type="text" class="form-control" name="judul_buku" value=""/></td>
+</tr>
+<td width="20%">Bahasa Buku</td>
+<td width="5%" align="center">:</td>
+<td width="55%">
+        <select class="form-control" name="bahasa_buku">
+  <option value="Jepang">Jepang</option>
+  <option value="Arab ">Arab </option>
+  <option value="Inggris">Inggris</option>
+  <option value="Indonesia">Indonesia</option>
+        </select></tr>
+<td width="20%">Jenis Buku</td>
+<td width="5%" align="center">:</td>
+<td width="55%">
+        <select class="form-control" name="jenis_buku">
+  <option value="Sastra">Sastra</option>
+  <option value="Fiksi">Fiksi</option>
+  <option value="Novel">Novel</option>
+  <option value="Komik">Komik</option>
+  <option value="Pendidikan">Pendidikan</option>
+  <option value="Majalah">Majalah</option>
+        </select></tr>
+<td width="20%">Penerbit Buku</td>
+<td width="5%" align="center">:</td>
+<td width="55%">
+        <select class="form-control" name="nama_penerbit">
+  <option value="Gramedia">Gramedia</option>
+  <option value="Andi Publisher">Andi Publisher</option>
+  <option value="Elex Komputindo">Elex Komputindo</option>
+  <option value="Dunia Kita">Dunia Kita</option>
+  <option value="Mizan Fantasi">Mizan Fantasi</option>
+        </select></tr>
+<tr>
+<td width="20%">Pengarang Buku</td>
+<td width="5%" align="center">:</td>
+<td width="55%"><input type="text" class="form-control" name="nama_pengarang" value=""/></td></tr>
+<tr>
+<td width="20%">Stok Buku</td>
+<td width="5%" align="center">:</td>
+<td width="55%"><input type="number" value="1" class="form-control" name="stok" min="1" max="99">
+</td></tr>
+<tr>
+<td colspan="3"><input type="submit" class="btn btn-primary btn-md" value="Tambah" /></td>
+</tr>
+</table>  
+</form> 
